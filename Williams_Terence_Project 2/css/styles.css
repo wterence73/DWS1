@@ -1,0 +1,38 @@
+html {
+background-color: #96d2d1;
+opacity: 100%;
+}
+body {
+background-color: white;
+margin: 200px;
+border-radius: 10px;
+box-shadow: -5px 15px 5px 7px rgb(145, 153, 153);
+}
+
+h3 {
+margin: 100px;
+margin-bottom: 1em;
+}
+h1 {
+padding-left: 400px;
+padding-top: 50px;
+padding-bottom: 40px;
+opacity: 0.5;
+}
+p1 {
+padding-left: 400px;
+}
+h2 {
+padding-left: 100px;
+margin-top: 1em;
+margin-bottom: 1em;
+
+}
+p {
+font-family: sans-serif;
+padding-top: 10 px;
+margin: 100px;
+margin-top: 1em;
+font-weight: normal;
+font-size: medium;
+}
