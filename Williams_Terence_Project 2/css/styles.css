@@ -1,38 +1,98 @@
+/* The beginning of css */
+
 html {
 background-color: #96d2d1;
-opacity: 100%;
 }
+/* The body styled */
+
 body {
 background-color: white;
 margin: 200px;
 border-radius: 10px;
 box-shadow: -5px 15px 5px 7px rgb(145, 153, 153);
 }
+/* All h3 elements styled */
 
 h3 {
 margin: 100px;
 margin-bottom: 1em;
 }
+/* All h1 elements styled */
+
 h1 {
-padding-left: 400px;
+font-size: 65px;
+font-weight: bold;
+text-shadow: 2px 2px #96d2d1;
+padding-left: 250px;
 padding-top: 50px;
 padding-bottom: 40px;
 opacity: 0.5;
 }
+/* All p1 elements styled */
+
 p1 {
+font-family: sans-serif;
+font-weight: normal;
+font-size: small;
+color: red;
 padding-left: 400px;
 }
+/* All h2 elements styled */
+
 h2 {
 padding-left: 100px;
 margin-top: 1em;
 margin-bottom: 1em;
-
 }
+/* All p elements styled */
+
 p {
 font-family: sans-serif;
-padding-top: 10 px;
 margin: 100px;
 margin-top: 1em;
 font-weight: normal;
 font-size: medium;
+line-height: 150%;
+text-align: left;
+text-shadow: 1px 1px #e7e6e6;
+}
+/* All p3 elements styled */
+
+p3 {
+display: block;
+font-family: sans-serif;
+font-weight: normal;
+font-size: small;
+line-height: 150%;
+text-align: left;
+text-shadow: 1px 1px #e7e6e6;
+color: #438509;
+}
+/* All ol elements styled */
+
+ol {
+list-style-type: upper-alpha;
+margin-left: 90px;
+}
+/* All figure elements styled */
+
+figure:hover {
+background-color: #fbfcfb;
+padding-left: 100px;
+}
+/* All li0 elements styled */
+
+li0 {
+display: inline;
+margin-left: 160px;
+}
+/* All img elements styled */
+
+img {
+padding-left: 55px;
+}
+/* All li elements styled */
+
+li {
+padding-left: 3px;
 }
