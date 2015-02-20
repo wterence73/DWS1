@@ -30,7 +30,7 @@ opacity: 0.5;
 }
 /* All p1 elements styled */
 
-p1 {
+p {
 font-family: sans-serif;
 font-weight: normal;
 font-size: small;
@@ -58,7 +58,7 @@ text-shadow: 1px 1px #e7e6e6;
 }
 /* All p3 elements styled */
 
-p3 {
+p {
 display: block;
 font-family: sans-serif;
 font-weight: normal;
@@ -82,7 +82,7 @@ padding-left: 100px;
 }
 /* All li0 elements styled */
 
-li0 {
+li {
 display: inline;
 margin-left: 160px;
 }
