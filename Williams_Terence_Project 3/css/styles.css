@@ -7,6 +7,7 @@ background-repeat: repeat;
 
 }
 
+/* The Body formatted */
 body {
 background-color: #ffffff;
 margin: 10%;
@@ -17,6 +18,7 @@ box-shadow: -5px 15px 5px 7px rgb(145, 153, 153);
 
 }
 
+/* h1 Heading formatted */ /* Gradient added to text */
 h1 {
 font-size: 4.06em;
 font-weight: bold;
@@ -35,12 +37,14 @@ background: -ms-linear-gradient(top,  #b4ddb4 0%,#83c783 22%,#52b152 100%,#00570
 background: linear-gradient(to bottom,  #b4ddb4 0%,#83c783 22%,#52b152 100%,#005700 100%,#005700 100%,#008a00 100%,#002400 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
 }
 
+/* h2 and h3 formatted */
 h2, h3 {
 font-family: sans-serif;
 margin: 1%;
 
 }
 
+/* h2 gets extra format */ /* No repeating image added */
 h2 {
 text-align: center;
 padding-top: 13%;
@@ -50,6 +54,7 @@ background-repeat: no-repeat;
 
 }
 
+/* h3 gets extra format */ /* No repeating image added */
 h3 {
 font-style: italic;
 text-align: left;
@@ -60,6 +65,7 @@ padding-top: 13%;
 
 }
 
+/* The paragraphs get format */
 p {
 display: block;
 font-family: sans-serif;
@@ -72,6 +78,7 @@ padding-bottom: 1%;
 
 }
 
+/* Ordered list are formatted */
 ol {
 font-weight: normal;
 font-size: 1.000em;
@@ -81,6 +88,7 @@ text-align: left;
 
 }
 
+/* div added to center a single paragraph */
 div.center {
 margin-left: 40%;
 margin-right: 40%;
@@ -88,6 +96,7 @@ width: 118.8%;
 
 }
 
+/* blockqoute gets format */
 blockqoute {
 display: block;
 font-family: sans-serif;
@@ -99,6 +108,7 @@ color: #3ebd41;
 
 }
 
+/* unordered list gets format */
 ul {
 font-weight: normal;
 font-size: 1.000em;
@@ -108,7 +118,7 @@ margin: 1%;
 color: #03a67a;
 
 }
-
+/* navigation gets interactive formats */
 a:hover {
 text-decoration: underline;
 color: #f50622;
@@ -132,6 +142,7 @@ color: #03a67a;
 
 }
 
+/* images gets formatted */
 figure:hover {
 text-decoration: underline;
 
@@ -152,6 +163,7 @@ text-align: left;
 
 }
 
+/* content div gets format */
 #content {
 float: left;
 width: 50%;
@@ -160,6 +172,7 @@ padding: 1px;
 
 }
 
+/* sidebar gets format */
 #sidebar {
 float: left;
 width: 20%;
@@ -171,6 +184,7 @@ padding-top: 3px;
 
 }
 
+/* footer gets format */
 #footer {
 clear: left;
 width: 40%;
