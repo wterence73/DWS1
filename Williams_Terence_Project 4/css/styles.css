@@ -14,6 +14,7 @@ body {
 	margin-right: auto;
 	width: 90%;
 	padding-bottom: 100px;
+	padding-top: -5px;
 	border-radius: 5px;
 	box-shadow: -5px 15px 5px 7px rgb(145, 153, 153);
 
@@ -23,11 +24,11 @@ body {
 h1 {
 	font-size: 4.06em;
 	font-weight: bold;
-	margin: 1%;
+	margin: 1% 0 0 0;
 	text-shadow: 2px 2px #96d2d1;
-	padding-left: 250px;
+	padding-left: 125px;
 	padding-top: 50px;
-	padding-bottom: 40px;
+	padding-bottom: 110px;
 	opacity: 0.5;
 	background: #b4ddb4; /* Old browsers */
 	background: -moz-linear-gradient(top,  #b4ddb4 0%, #83c783 22%, #52b152 100%, #005700 100%, #005700 100%, #008a00 100%, #002400 100%); /* FF3.6+ */
@@ -36,6 +37,38 @@ h1 {
 	background: -o-linear-gradient(top,  #b4ddb4 0%,#83c783 22%,#52b152 100%,#005700 100%,#005700 100%,#008a00 100%,#002400 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #b4ddb4 0%,#83c783 22%,#52b152 100%,#005700 100%,#005700 100%,#008a00 100%,#002400 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #b4ddb4 0%,#83c783 22%,#52b152 100%,#005700 100%,#005700 100%,#008a00 100%,#002400 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+
+}
+
+#navbar {
+
+	width: 100%;
+	float: left;
+	margin: 0 0 5em 0;
+	list-style: none;
+	background-color: #03a67a;
+	border-bottom: 3px #636363; 
+	border-top: 3px #636363; 
+}
+
+#navbar li {
+float: left;
+
+ }
+ 
+#navbar li a {
+	display: block;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #ffffff;
+	border-right: 1px solid #ffffff;
+	
+ }
+#navbar li a:hover {
+	color: #f50622;
+	background-color: #ffffff; 
+	
 }
 
 /* h2 and h3 formatted */
@@ -43,7 +76,7 @@ h2, h3 {
 	font-family: sans-serif;
 	margin: 1%;
 	
-	}
+}
 
 /* h2 gets extra format */ /* No repeating image added */
 h2 {
@@ -66,7 +99,7 @@ h3 {
 	background-size: 100px 100px;
 	background-position: right;
 	background-repeat: no-repeat;
-	padding-top: 13%;
+	padding-top: 7%;
 
 }
 
@@ -96,10 +129,39 @@ ol {
 
 /* div added to center a single paragraph */
 div.center {
-	margin-left: 40%;
-	margin-right: 40%;
+	margin-left: 60%;
+	margin-right: 60%;
 	width: 118.8%;
 
+}
+
+table {
+		border-spacing: 0;
+		width: 100%;
+		padding: 1%;
+		background-color: #03a67a;
+		border-radius: 30px;
+		box-shadow: 1px 1px 3px 3px;
+		margin: 0 0 5% 0;
+		font: 1em;
+		text-align: center;
+		letter-spacing: .5em;
+		
+}
+
+td, th {
+		border: 1px solid #020202;
+		
+}
+
+td:hover {
+		border: solid #ffffff;
+		
+}
+
+th:hover {
+		border: solid #211f6c;
+		
 }
 
 /* blockqoute gets format */
@@ -124,6 +186,7 @@ ul {
 	color: #03a67a;
 
 }
+
 /* navigation gets interactive formats */
 a:hover {
 	text-decoration: underline;
@@ -172,15 +235,15 @@ figcaption {
 /* content div gets format */
 #content {
 	float: left;
-	width: 50%;
-	margin: 10%;
+	width: 60%;
+	margin: 1%;
 	padding: 1px;
 
 }
 
 /* sidebar gets format */
 #sidebar {
-	float: left;
+	float: right;
 	width: 20%;
 	margin: 1%;
 	padding: 1px;
@@ -190,10 +253,99 @@ figcaption {
 
 }
 
-/* footer gets format */
-#footer {
-	clear: left;
-	width: 40%;
-	padding: 5%;
-
+footer {
+		overflow: auto;
+		margin: 15%;
+		
 }
+
+#rateform {
+		background-color: #b4ddb4;
+		border-radius: 25px;
+		box-shadow: 1px 1px 5px 5px;
+		float: left;
+		font-size 1.25em
+		width: 50%;
+	
+}
+
+#ratetitle {
+		float: left;
+		text-align: right;
+		width: 1%;
+		
+}
+
+#radiobuttons {
+		float: left;
+		text-align: left;
+		width: 100%;
+		font-size: 1.25em;
+		padding: .25% 0 0 0;
+		margin: 2% 0 0 3%;
+		
+}
+
+.title {
+		float: left;
+		text-align: left;
+		width: 100%;
+		font-size: 1.25em;
+		padding: .25% 0 0 0;
+		margin: 2% 0 0 3%;
+		
+}
+
+.input {
+		float: left;
+		width: 30%;
+		margin: 2% 0 0 3%;
+		
+}
+
+input:hover {
+		border: solid #b4ddb4;
+	
+}
+
+#buttonsubmit {
+		margin: 0 5% 2% 0;
+		clear: both;
+		text-align: right;
+		background-color: #b4ddb4;
+		
+}
+
+input:focus {
+		background-color: #b4ddb4;
+		
+}
+
+#sources {
+		float: right;
+		width: 85%;
+		margin: 5% 10% 5% 0;
+		padding: 0 0 0 9%;
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
